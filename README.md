@@ -38,5 +38,10 @@ font-family: "Papyrus", "Comic Sans MS";
 button:hover {
 animation: shake infinite 0.5s steps(1, end);
 }
+.ContributionCalendar-day {
+    fill: var(--color-calendar-graph-day-L4-bg) !important;
+    background-color: var(--color-calendar-graph-day-L4-bg) !important;
+    outline: 1px solid var(--color-calendar-graph-day-L4-border) !important;
+}
 @@@END@@@
 ```
