@@ -1,7 +1,7 @@
 # funny css injection
 [install this violentmonkey script for funny css injection](https://github.com/thatonepuggo/statue-repo/raw/master/docs/githubcssinjector.user.js)
 ```css
-@@@INJECT_CSS@@@
+@@@BEGIN_CSS_INJECTION@@@
 * {
   font-family: 'Comic Sans MS';
 }
@@ -43,5 +43,5 @@ animation: shake infinite 0.5s steps(1, end);
     background-color: var(--color-calendar-graph-day-L4-bg) !important;
     outline: 1px solid var(--color-calendar-graph-day-L4-border) !important;
 }
-@@@END@@@
+@@@END_CSS_INJECTION@@@
 ```
